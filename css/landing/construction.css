@@ -1,0 +1,169 @@
+.post-heading-center p, .post-heading-center2 p, .post-heading-left p, .post-heading-left2 p {
+	color:#777;
+	font-weight:300;
+}
+	
+#header .header-content-construction {
+	position:relative;
+	overflow:hidden;
+	height:800px;
+	background:#1a1a1a center no-repeat;
+	background-size:cover;
+}
+	#header .header-content-construction .header-content-wrap {
+		position:absolute;
+		top:0px;
+		right:0px;
+		bottom:0px;
+		left:0px;
+		padding-top:90px;
+	}
+	#header .header-content-construction .container {
+		position:relative;
+		height:100%;
+	}
+	#header .header-content-construction .header-content-txt {
+		position:absolute;
+		top:50%;
+		left:15px;
+		max-width:800px;
+		margin-top:-200px;
+	}
+	#header .header-content-construction.header-content-right .header-content-txt {
+		right:15px;
+		left:auto;
+	}
+	#header .header-content-construction.header-content-center .header-content-txt {
+		right:185px;
+		left:185px;
+		max-width:none;
+		text-align:center;
+	}
+		#header .header-content-construction .header-content-txt h2 {
+			font-size:56px;
+			line-height:68px;
+			font-weight:700;
+			letter-spacing:2px;
+			text-transform:uppercase;
+			margin:0px;
+		}
+		#header .header-content-construction .header-content-txt p {
+			font-size:24px;
+			line-height:36px;
+			margin:20px 0px 0px;
+		}
+	#header .header-content-construction .header-content-btn { margin:35px -10px 0px; }
+		#header .header-content-construction .header-content-btn .btn-custom {
+			line-height:60px;
+			margin:0px 10px;
+		}
+		
+#header .header-content-menu {
+	display:none;
+	position:absolute;
+	top:20px;
+	right:15px;
+	left:15px;
+	text-align:center;
+	z-index:1000;
+}
+	#header .header-content-menu > button {
+		font-size:38px;
+		background-color:transparent;
+		padding:0px;
+		margin-bottom:20px;
+		border:0px;
+	}
+		#header .header-content-menu > button .ion { margin:0px; }
+		#header .header-content-menu .menu-logo img { height:40px; }
+		#header .header-content-menu .menu-logo a:hover { opacity:1; }
+		
+.affa-testimonial2 > p {
+	font-size:20px;
+	line-height:32px;
+	font-weight:300;
+	font-style:normal;
+}
+
+@media (max-width: 1199px) {
+	
+	#header .header-content-construction { height:740px; }
+	#header .header-content-construction.header-content-center .header-content-txt {
+		right:85px;
+		left:85px;
+	}
+	
+}
+
+@media (max-width: 991px) {
+	
+	#header .header-content-construction { height:680px; }
+	#header .header-content-construction .header-content-wrap { padding-top:120px; }
+	#header .header-content-construction .header-content-txt {
+		right:15px;
+		max-width:none;
+		margin-top:-180px;
+	}
+	#header .header-content-construction.header-content-right .header-content-txt { left:15px; }
+	#header .header-content-construction.header-content-center .header-content-txt {
+		right:15px;
+		left:15px;
+	}
+	#header .header-content-construction .header-content-txt h2 {
+		font-size:50px;
+		line-height:62px;
+	}
+	#header .header-content-construction .header-content-txt p {
+		font-size:22px;
+		line-height:34px;
+	}
+	
+	#header .header-content-menu { display:block; }
+	
+}
+
+@media (max-width: 767px) {
+	
+	#header .header-content-construction { height:640px; }
+	#header .header-content-construction .header-content-txt h2 {
+		font-size:44px;
+		line-height:54px;
+	}
+	#header .header-content-construction .header-content-txt p { margin-top:15px; }
+	#header .header-content-construction .header-content-btn { margin-top:25px; }
+	
+	.isotope-menu {
+		padding:0px;
+		margin-bottom:30px;
+	}
+	
+}
+
+@media (max-width: 560px) {
+	
+	#header .header-content-construction .header-content-txt { margin-top:-200px; }
+	
+}
+
+@media (max-width: 480px) {
+	
+	#header .header-content-construction { height:600px; }
+	#header .header-content-construction .header-content-txt { margin-top:-180px; }
+	#header .header-content-construction .header-content-btn { display:none; }
+	
+}
+
+@media (max-width: 400px) {
+	
+	#header .header-content-construction .header-content-txt { margin-top:-200px; }
+	#header .header-content-construction .header-content-txt h2 {
+		font-size:38px;
+		line-height:48px;
+	}
+	#header .header-content-construction .header-content-txt p {
+		font-size:20px;
+		line-height:32px;
+		margin-top:10px;
+	}
+	
+}

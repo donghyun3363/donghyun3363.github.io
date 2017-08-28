@@ -1,0 +1,381 @@
+.post-heading-center {
+	position:relative;
+	padding:0px;
+	margin-bottom:40px;
+}
+.post-heading-center:before {
+	position:absolute;
+	top:50%;
+	right:0px;
+	left:0px;
+	height:2px;
+	background-color:#EEE;
+	content:'';
+	margin-top:-1px;
+}
+.bg-grey .post-heading-center:before { background-color:#e9e9e9; }
+.text-white .post-heading-center:before { background-color:rgba(255,255,255,.25); }
+.ie .text-white .post-heading-center:before { background:url(../../images/ie-bg-white-25.png) top left repeat; }
+	.post-heading-center h2, .post-heading-center h4 {
+		position:relative;
+		display:inline-block;
+		background-color:#FFF;
+		padding:0px 25px;
+		z-index:100;
+	}
+	.bg-grey .post-heading-center h2, .bg-grey .post-heading-center h4 { background-color:#f9f9f9; }
+	.bg-dark .post-heading-center h2, .bg-dark .post-heading-center h4 { background-color:#1a1a1a; }
+	.bg-color .post-heading-center h2, .bg-color .post-heading-center h4 { background-color:#00d27f; }
+	
+.post-heading-left3 h4 {
+	font-size:18px;
+	line-height:26px;
+	font-weight:700;
+}
+
+#header .header-content-shop {
+	position:relative;
+	overflow:hidden;
+}
+	#header .header-content-shop .header-content-wrap {
+		position:absolute;
+		top:0px;
+		right:0px;
+		bottom:0px;
+		left:0px;
+		padding-top:130px;
+	}
+	#header .header-content-shop .container {
+		position:relative;
+		height:100%;
+	}
+	#header .header-content-shop .header-content-txt {
+		position:absolute;
+		top:50%;
+		left:15px;
+		max-width:570px;
+		margin-top:-170px;
+	}
+	#header .header-content-shop.header-content-right .header-content-txt {
+		right:15px;
+		left:auto;
+	}
+	#header .header-content-shop.header-content-center .header-content-txt {
+		right:235px;
+		left:235px;
+		max-width:none;
+		text-align:center;
+		margin-top:-160px;
+	}
+		#header .header-content-shop .header-content-txt p {
+			font-size:22px;
+			line-height:30px;
+			font-style:italic;
+		}
+		#header .header-content-shop .header-content-txt h2 {
+			font-size:72px;
+			line-height:76px;
+			font-weight:700;
+			letter-spacing:3px;
+			text-transform:uppercase;
+			margin:0px;
+		}
+		#header .header-content-shop.header-content-center .header-content-txt h2 {
+			font-size:86px;
+			line-height:90px;
+		}
+		#header .header-content-shop .header-content-txt h4 {
+			font-size:32px;
+			line-height:40px;
+			text-transform:uppercase;
+			letter-spacing:1.5px;
+			margin:5px 0px 0px;
+		}
+		#header .header-content-shop .header-content-txt .header-content-btn { margin:20px -8px 0px; }
+			#header .header-content-shop .header-content-txt .header-content-btn .btn-custom {
+				line-height:60px;
+				margin:0px 8px;
+			}
+			
+.affa-products-cat-row { margin:0px -5px; }
+	.affa-products-cat-row > div { padding:0px 5px; }
+.affa-products-cat-shop {
+	position:relative;
+	overflow:hidden;
+	height:220px;
+	text-align:center;
+	margin-bottom:10px;
+}
+.affa-products-cat-shop.products-cat-lg { height:450px; }
+	.affa-products-cat-shop .products-cat-img {
+		position:absolute;
+		top:0px;
+		right:0px;
+		bottom:0px;
+		left:0px;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		-webkit-transition:all .3s ease-in-out;
+		transition:all .3s ease-in-out;
+	}
+	.affa-products-cat-shop:hover .products-cat-img { transform:scale(1.1); }
+	.affa-products-cat-shop .products-cat-overlay {
+		position:absolute;
+		top:0px;
+		right:0px;
+		bottom:0px;
+		left:0px;
+		color:#FFF;
+		background-color:rgba(0,0,0,.3);
+		-webkit-transition:background .3s ease;
+		transition:background .3s ease;
+	}
+	.ie .affa-products-cat-shop .products-cat-overlay { background:url(../../images/ie-bg-dark-30.png) top left repeat; }
+	.affa-products-cat-shop:hover .products-cat-overlay { background-color:rgba(0,0,0,.4); }
+	.ie .affa-products-cat-shop:hover .products-cat-overlay { background-image:url(../../images/ie-bg-dark-40.png); }
+		.affa-products-cat-shop .products-cat-overlay h4 {
+			color:#FFF;
+			font-size:20px;
+			line-height:28px;
+			font-weight:700;
+			text-transform:uppercase;
+			letter-spacing:.5px;
+			margin:0px;
+		}
+		.affa-products-cat-shop .products-cat-overlay p {
+			color:rgba(255,255,255,.8);
+			font-weight:500;
+			margin:5px 0px 0px
+		}
+		.ie .affa-products-cat-shop .products-cat-overlay p { color:#FFF; }
+		.affa-products-cat-shop .products-cat-overlay .products-cat-txt {
+			position:absolute;
+			top:50%;
+			right:0px;
+			left:0px;
+			margin-top:-15px;
+			-webkit-transition:margin .3s ease;
+			transition:margin .3s ease;
+		}
+		.affa-products-cat-shop:hover .products-cat-overlay .products-cat-txt { margin-top:-30px; }
+			.affa-products-cat-shop .products-cat-overlay .products-cat-txt p {
+				visibility:hidden;
+				opacity:0;
+				-webkit-transition:visibility .3s ease, opacity .3s ease-in-out;
+				transition:visibility .3s ease, opacity .3s ease-in-out;
+			}
+			.affa-products-cat-shop:hover .products-cat-overlay .products-cat-txt p {
+				visibility:visible;
+				opacity:1;
+			}
+			
+.affa-recent-posts-shop {
+	padding:0px;
+	margin-bottom:40px;
+}
+	.affa-recent-posts-shop li {
+		list-style-type:none;
+		position:relative;
+		padding-left:85px;
+		margin-bottom:20px;
+	}
+	.affa-recent-posts-shop li:last-child { margin-bottom:0px; }
+		.affa-recent-posts-shop li .post-item-thumbnail {
+			position:absolute;
+			top:0px;
+			left:0px;
+			width:70px;
+			height:70px;
+		}
+		.affa-recent-posts-shop li .post-item-txt {
+			min-height:70px;
+			padding-bottom:10px;
+			border-bottom:1px dotted #e0e0e0;
+		}
+		.affa-recent-posts-shop li:last-child .post-item-txt {
+			padding-bottom:0px;
+			border-bottom:0px;
+		}
+		.text-white .affa-recent-posts-shop li .post-item-txt { border-bottom-color:rgba(255,255,255,.4); }
+		.ie .text-white .affa-recent-posts-shop li .post-item-txt { border-bottom-color:#FFF; }
+		.affa-recent-posts-shop li .post-item-title {
+			font-size:16px;
+			line-height:24px;
+			font-weight:400;
+			margin:0px;
+		}
+			.affa-recent-posts-shop li .post-item-title a { color:#303030; }
+			.affa-recent-posts-shop li .post-item-title a:hover { color:#00d27f; }
+			.text-white .affa-recent-posts-shop li .post-item-title a { color:#FFF; }
+		.affa-recent-posts-shop li .post-item-meta {
+			font-family:Montserrat, Arial, sans-serif;
+			color:#c0c0c0;
+			font-size:11px;
+			line-height:16px;
+			font-weight:500;
+			text-transform:uppercase;
+			letter-spacing:.5px;
+			margin:8px 0px 0px;
+		}
+		.text-white .affa-recent-posts-shop li .post-item-meta { color:rgba(255,255,255,.7); }
+		.ie .text-white .affa-recent-posts-shop li .post-item-meta { color:#FFF; }
+		
+.affa-testimonial2 .testimonial-rate {
+	display:inline-block;
+	position:relative;
+	width:92px;
+	height:16px;
+	background:url(../../images/bg-product-rate.png) left center no-repeat;
+	margin-top:25px;
+}
+.text-white .affa-testimonial2 .testimonial-rate { background-image:url(../../images/bg-product-rate-white.png); }
+	.affa-testimonial2 .testimonial-rate .testimonial-rate-val {
+		position:absolute;
+		top:0px;
+		bottom:0px;
+		left:0px;
+		font-size:0px;
+		text-indent:-99999px;
+		background:url(../../images/bg-product-rate-val.png) left center no-repeat;
+	}
+	.text-white .affa-testimonial2 .testimonial-rate .testimonial-rate-val { background-image:url(../../images/bg-product-rate-val-yellow.png); }
+	
+@media (max-width: 1199px) {
+	
+	#header .header-content-shop.header-content-center .header-content-txt {
+		right:135px;
+		left:135px;
+	}
+	
+	.affa-products-cat-shop { height:190px; }
+	.affa-products-cat-shop.products-cat-lg { height:390px; }
+	
+}
+
+@media (max-width: 991px) {
+	
+	#header .header-content-shop .header-content-wrap { padding-top:0px; }
+	#header .header-content-shop.header-content-center .header-content-txt {
+		right:25px;
+		left:25px;
+	}
+	
+	.affa-products-cat-shop { height:160px; }
+	.affa-products-cat-shop.products-cat-lg { height:330px; }
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.affa-recent-posts-shop li { padding:0px; }
+	.affa-recent-posts-shop li .post-item-thumbnail { display:none; }
+	.affa-recent-posts-shop li .post-item-txt { min-height:0px; }
+	
+}
+
+@media (max-width: 767px) {
+	
+	#header .header-content-shop .header-content-txt {
+		position:static;
+		top:auto;
+		left:auto;
+		max-width:none;
+		margin-top:12%;
+	}
+	#header .header-content-shop.header-content-center .header-content-txt {
+		right:auto;
+		left:auto;
+		margin-top:10%;
+	}
+	#header .header-content-shop .header-content-txt p {
+		font-size:20px;
+		line-height:28px;
+	}
+	#header .header-content-shop .header-content-txt h2 {
+		font-size:54px;
+		line-height:60px;
+		letter-spacing:2px;
+	}
+	#header .header-content-shop.header-content-center .header-content-txt h2 {
+		font-size:60px;
+		line-height:66px;
+	}
+	#header .header-content-shop .header-content-txt h4 {
+		font-size:26px;
+		line-height:34px;
+		letter-spacing:1px;
+	}
+	
+	.affa-products-cat-shop, .affa-products-cat-shop.products-cat-lg { height:400px; }
+	.affa-products-cat-shop {
+		max-width:450px;
+		margin-right:auto;
+		margin-left:auto;
+	}
+	
+	.affa-recent-posts-shop li { padding-left:110px; }
+	.affa-recent-posts-shop li .post-item-thumbnail {
+		width:90px;
+		height:90px;
+	}
+	.affa-recent-posts-shop li .post-item-txt { min-height:90px; }
+	
+}
+
+@media (max-width: 680px) {
+	
+	#header .header-content-shop .header-content-txt, #header .header-content-shop.header-content-center .header-content-txt { margin-top:8%; }
+	
+}
+
+@media (max-width: 600px) {
+	
+	#header .header-content-shop .header-content-txt p { display:none; }
+	
+}
+
+@media (max-width: 480px) {
+	
+	#header .header-content-shop .header-content-txt {
+		text-align:center;
+		margin-top:11%;
+	}
+	#header .header-content-shop.header-content-center .header-content-txt { margin-top:14%; }
+	#header .header-content-shop .header-content-txt .header-content-btn { display:none; }
+	
+	.affa-products-cat-shop, .affa-products-cat-shop.products-cat-lg { height:300px; }
+	
+}
+
+@media (max-width: 400px) {
+	
+	#header .header-content-shop .header-content-txt, #header .header-content-shop.header-content-center .header-content-txt { margin-top:11%; }
+	#header .header-content-shop .header-content-txt h2 {
+		font-size:42px;
+		line-height:48px;
+		letter-spacing:1.5px;
+	}
+	#header .header-content-shop.header-content-center .header-content-txt h2 {
+		font-size:48px;
+		line-height:54px;
+	}
+	#header .header-content-shop .header-content-txt h4 {
+		font-size:24px;
+		line-height:32px;
+	}
+	
+	.affa-recent-posts-shop li { padding-left:85px; }
+	.affa-recent-posts-shop li .post-item-thumbnail {
+		width:70px;
+		height:70px;
+	}
+	.affa-recent-posts-shop li .post-item-txt { min-height:70px; }
+	
+}
+
+@media (max-width: 340px) {
+	
+	.affa-products-cat-shop, .affa-products-cat-shop.products-cat-lg { height:240px; }
+	
+}

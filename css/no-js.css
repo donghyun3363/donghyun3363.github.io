@@ -1,0 +1,92 @@
+.carousel-slider > div { display:none; }
+.carousel-slider > div:first-child, .carousel-slider.carousel-arrows-2col > div:nth-child(2), .carousel-slider.carousel-arrows-3col > div:nth-child(2), .carousel-slider.carousel-arrows-4col > div:nth-child(2), .carousel-slider.carousel-arrows-5col > div:nth-child(2), .carousel-slider.carousel-arrows-6col > div:nth-child(2), .carousel-slider.carousel-dots-2col > div:nth-child(2), .carousel-slider.carousel-dots-3col > div:nth-child(2), .carousel-slider.carousel-dots-4col > div:nth-child(2), .carousel-slider.carousel-dots-5col > div:nth-child(2), .carousel-slider.carousel-dots-6col > div:nth-child(2), .carousel-slider.carousel-draggable-2col > div:nth-child(2), .carousel-slider.carousel-draggable-3col > div:nth-child(2), .carousel-slider.carousel-draggable-4col > div:nth-child(2), .carousel-slider.carousel-draggable-5col > div:nth-child(2), .carousel-slider.carousel-draggable-6col > div:nth-child(2), .carousel-slider.carousel-nav-content > div:nth-child(2), .carousel-slider.carousel-clients > div:nth-child(2), .carousel-slider.carousel-product-thumbnails-nav > div:nth-child(2), .carousel-slider.carousel-arrows-3col > div:nth-child(3), .carousel-slider.carousel-arrows-4col > div:nth-child(3), .carousel-slider.carousel-arrows-5col > div:nth-child(3), .carousel-slider.carousel-arrows-6col > div:nth-child(3), .carousel-slider.carousel-dots-3col > div:nth-child(3), .carousel-slider.carousel-dots-4col > div:nth-child(3), .carousel-slider.carousel-dots-5col > div:nth-child(3), .carousel-slider.carousel-dots-6col > div:nth-child(3), .carousel-slider.carousel-draggable-3col > div:nth-child(3), .carousel-slider.carousel-draggable-4col > div:nth-child(3), .carousel-slider.carousel-draggable-5col > div:nth-child(3), .carousel-slider.carousel-draggable-6col > div:nth-child(3), .carousel-slider.carousel-nav-content > div:nth-child(3), .carousel-slider.carousel-clients > div:nth-child(3), .carousel-slider.carousel-product-thumbnails-nav > div:nth-child(3), .carousel-slider.carousel-arrows-4col > div:nth-child(4), .carousel-slider.carousel-arrows-5col > div:nth-child(4), .carousel-slider.carousel-arrows-6col > div:nth-child(4), .carousel-slider.carousel-dots-4col > div:nth-child(4), .carousel-slider.carousel-dots-5col > div:nth-child(4), .carousel-slider.carousel-dots-6col > div:nth-child(4), .carousel-slider.carousel-draggable-4col > div:nth-child(4), .carousel-slider.carousel-draggable-5col > div:nth-child(4), .carousel-slider.carousel-draggable-6col > div:nth-child(4), .carousel-slider.carousel-nav-content > div:nth-child(4), .carousel-slider.carousel-clients > div:nth-child(4), .carousel-slider.carousel-product-thumbnails-nav > div:nth-child(4), .carousel-slider.carousel-arrows-5col > div:nth-child(5), .carousel-slider.carousel-arrows-6col > div:nth-child(5), .carousel-slider.carousel-dots-5col > div:nth-child(5), .carousel-slider.carousel-dots-6col > div:nth-child(5), .carousel-slider.carousel-draggable-5col > div:nth-child(5), .carousel-slider.carousel-draggable-6col > div:nth-child(5), .carousel-slider.carousel-clients > div:nth-child(5), .carousel-slider.carousel-product-thumbnails-nav > div:nth-child(5), .carousel-slider.carousel-arrows-6col > div:nth-child(6),.carousel-slider.carousel-dots-6col > div:nth-child(6), .carousel-slider.carousel-draggable-6col > div:nth-child(6), .carousel-slider.carousel-clients > div:nth-child(6) { display:block; }
+.carousel-slider .slick-slide {
+	float:none;
+	height:auto;
+	min-height:0px;
+}
+
+.carousel-slider.carousel-dots { padding-bottom:0px !important; }
+.carousel-slider.carousel-testimonials { padding-right:0px; }
+
+.animation { visibility:visible; }
+
+#header { padding-top:130px; }
+#header.header-2, #header.header-4, #header.header-5 { padding-top:90px; }
+#header.header-3 { padding-top:195px; }
+#header.header-2.header-nav-bottom, #header.header-4.header-nav-bottom, #header .header-content5 .header-content-wrap, #header.header-5.header-nav-bottom, #header.header-transparent, #header .header-content-shop .header-content-wrap { padding-top:0px; }
+#header .header-content-education, #header .header-content-portfolio { padding-top:60px; }
+
+#header .header-overlay {
+	position:static;
+	top:auto;
+	right:auto;
+	bottom:auto;
+	left:auto;
+}
+#header .slider-pro, #header .slider-pro .sp-slide .container, #header .slider-pro img.sp-image, #header .slider-pro img.sp-thumbnail { display:none; }
+#header .slider-pro .sp-slide {
+	display:none;
+	position:static;
+}
+#header.header-transparent .slider-pro, #header .slider-pro .sp-slide:first-child { display:block; }
+
+.affa-progress-bar .progress-bar-line.in .bar-line-val {
+	visibility:visible;
+	opacity:1;
+}
+.affa-progress-bar2 .progress-bar-line { width:100%; }
+
+@media (min-width: 992px) {
+	
+	#header .header-content-minimalist .header-content-wrap { padding-top:0px; }
+	
+}
+
+@media (max-width: 991px) {
+	
+	.carousel-slider.carousel-testimonials2 { padding:0px; }
+	
+	#header { padding-top:0px !important; }
+	#header.header-4 { padding-top:90px !important; }
+	#header .header-content-education { padding-top:20px; }
+	
+}
+
+@media (max-width: 767px) {
+	
+	.carousel-slider.carousel-arrows-4col > div, .carousel-slider.carousel-dots-4col > div, .carousel-slider.carousel-draggable-4col > div {
+		float:left;
+		width:50%;
+	}
+	.carousel-slider.carousel-arrows-5col > div, .carousel-slider.carousel-arrows-6col > div, .carousel-slider.carousel-dots-5col > div, .carousel-slider.carousel-dots-6col > div, .carousel-slider.carousel-draggable-5col > div, .carousel-slider.carousel-draggable-6col > div, .carousel-slider.carousel-clients > div {
+		float:left;
+		width:33.33%;
+	}
+	
+	.carousel-slider.carousel-testimonials { padding:0px; }
+	.carousel-slider.carousel-testimonials:before { display:none; }
+	
+	#header.header-4 { padding-top:0px !important; }
+	#header .header-content-portfolio { padding-top:20px; }
+	
+}
+
+@media (max-width: 480px) {
+	
+	.carousel-slider.carousel-arrows-4col > div, .carousel-slider.carousel-dots-4col > div, .carousel-slider.carousel-draggable-4col > div {
+		float:none;
+		width:auto;
+	}
+	.carousel-slider.carousel-arrows-5col > div, .carousel-slider.carousel-arrows-6col > div, .carousel-slider.carousel-dots-5col > div, .carousel-slider.carousel-dots-6col > div, .carousel-slider.carousel-draggable-5col > div, .carousel-slider.carousel-draggable-6col > div, .carousel-slider.carousel-clients > div { width:50%; }
+	
+}
+
+@media (max-width: 340px) {
+	
+	.carousel-slider.carousel-arrows-5col > div, .carousel-slider.carousel-arrows-6col > div, .carousel-slider.carousel-dots-5col > div, .carousel-slider.carousel-dots-6col > div, .carousel-slider.carousel-draggable-5col > div, .carousel-slider.carousel-draggable-6col > div, .carousel-slider.carousel-clients > div {
+		float:none;
+		width:auto;
+	}
+	
+}
